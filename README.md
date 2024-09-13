@@ -75,12 +75,21 @@ Integrates the Hugging Face MARBERT model for news article classification with t
 
 ---
 
-## How to Run the Code:
-1. Notebook 1 (HuggingFace_P1.ipynb)
-2. Notebook 2 (Gradio_P1.ipynb)
-3. Notebook 3 (HuggingFace_Gradio_P1.ipynb)
+## How to Run the Code
+
+You can run the code either locally or on a cloud-based platform (such as Google Colab or Jupyter Notebook). Ensure you have installed the required libraries listed in the `requirements.txt` file before running the notebooks.
+
+1. **Notebook 1 (HuggingFace_P1.ipynb)**:
+   - You can change the sentences of news articles in the list to test different scenarios and check the accuracy of the model.
+
+2. **Notebook 2 (Gradio_P1.ipynb)**:
+   - Try inputting various news articles (one at a time) and test if each list for the categories contains enough keywords. You may also add new keywords to improve the classification.
+
+3. **Notebook 3 (HuggingFace_Gradio_P1.ipynb)**:
+   - Input any news articles to see how the Hugging Face MARBERT model classifies them and review the results.
+
 
 ---
 
 ## Video:
-A video demonstrating the "News Article Classification" project for Notebook Three has been uploaded to the repository. You can view it for a better understanding of the project.
+A video demonstrating the project has been uploaded to the repository. You can view it for a better understanding of the project. You can find it in the [`video/`](./video) directory as `demo_video.mp4`.
