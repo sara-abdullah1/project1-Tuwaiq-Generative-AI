@@ -18,7 +18,7 @@ Link to the project on Hugging Face:
 The project is divided into three separate Python notebooks:
 
 ### 1. Notebook One (HuggingFace_P1.ipynb):
-Implements the Hugging Face MARBERT model for news article classification using the pipeline from the transformers library. This notebook processes a list of Arabic sentences provided by the user, classifying them into one of seven categories (Sport, Finance, Religion, Technology, Medical, Culture, Politics), along with a confidence score for each prediction. After classification, the results are converted into a pandas DataFrame for further analysis and visualizations using matplotlib.
+Implements the Hugging Face MARBERT model for news article classification using the pipeline from the transformers library. This notebook processes a list of Arabic sentences (news article) provided by the user, classifying them into one of seven categories (Sport, Finance, Religion, Technology, Medical, Culture, Politics), along with a confidence score for each prediction. After classification, the results are converted into a pandas DataFrame for further analysis and visualizations using matplotlib.
 
 #### Main Operations in Notebook One:
 - Uses the Hugging Face text-classification pipeline to categorize a list of sentences with the confidence score.
